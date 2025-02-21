@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #000000;
+  color: #f6f6f6;
+}
+
+.apresentacao__links__link {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+.apresentacao__links__link:hover {
+  cursor: pointer;
+  background: #272727;
+}
